@@ -1,0 +1,39 @@
+v5.1.4
+- New Material Design colour pallette based themes. Blue, Indigo, Deep Orange, Red, Blue Grey.
+- Custom Material Design themed icons created to suppliment Google's default Material Design icon set.
+- Music and Video OSD updated.
+
+v5.13
+- Material-Touched Forked from Re-Touched v5.1.2.
+- Font sizes enlarged and layouts optimized for tablet and smartphone touchscreen displays.
+- Default textures redesigned to replicate Google's Material Design colour pallette and icons. 
+
+v5.1.2
+- Fixes
+
+v5.1.1
+- remove karaoke
+
+v5.1.0
+- Use a single xml folder for multiple aspects
+
+v5.0.0
+- Updates for Jarvis
+
+v4.0.0
+- Updates for Isengard
+
+v3.0.4
+- Add option to use a custom background
+
+v3.0.3
+- Cosmetics
+
+v3.0.2
+- Updates for Helix
+
+v3.0.1
+- Update language files
+
+v3.0.0
+- Initial release for Kodi Helix
