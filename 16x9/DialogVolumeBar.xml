@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<window>
+	<defaultcontrol always="true">9000</defaultcontrol>
+	<include>Window_OpenClose_Animation</include>
+	<controls>
+		<control type="button">
+			<description>Hidden button to close the window when its focused</description>
+			<posx>0</posx>
+			<posy>0</posy>
+			<include>ScreenWidth</include>
+			<height>ScreenHeight</height>
+			<texturenofocus>-</texturenofocus>
+			<texturefocus>-</texturefocus>
+			<onclick>Back</onclick>
+		</control>
+		<control type="group">
+			<posx>410r</posx>
+			<posy>180r</posy>
+			<control type="image">
+				<posx>0</posx>
+				<posy>0</posy>
+				<width>400</width>
+				<height>70</height>
+				<texture border="5">overlaydialogbackground.png</texture>
+			</control>
+			<control type="label">
+				<description>label</description>
+				<posx>20</posx>
+				<posy>10</posy>
+				<height>20</height>
+				<width>200</width>
+				<label>13376</label>
+				<font>font13</font>
+				<aligny>center</aligny>
+				<textcolor>whitetext</textcolor>
+			</control>
+			<control type="label">
+				<description>Volumelabel</description>
+				<posx>380</posx>
+				<posy>10</posy>
+				<height>20</height>
+				<width>200</width>
+				<label>$INFO[Control.GetLabel(1)]</label>
+				<font>font13</font>
+				<align>right</align>
+				<aligny>center</aligny>
+				<textcolor>whitetext</textcolor>
+			</control>
+			<control type="progress" id="2">
+				<description>Volume</description>
+				<posx>10</posx>
+				<posy>45</posy>
+				<width>380</width>
+				<height>5</height>
+				<info>Player.Volume</info>
+			</control>
+			<control type="slider" id="1">
+				<description>Volume Slider</description>
+				<posx>0</posx>
+				<posy>40</posy>
+				<width>380</width>
+				<height>5</height>
+ 				<info>Player.Volume</info>
+				<action>Volume</action>
+				<texturesliderbar>osdprogresssvolume.png</texturesliderbar>
+				<textureslidernib>OSDSliderNibVolume.png</textureslidernib>
+				<textureslidernibfocus>OSDSliderNibVolume.png</textureslidernibfocus>
+			</control>
+		</control>
+	</controls>
+</window>
